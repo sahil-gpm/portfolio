@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 
 
 const Fullstack = () => {
-  const [loaded,setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(false)
 
-  useEffect(()=>{
+  useEffect(() => {
     setLoaded(true)
-  },[])
+  }, [])
 
   return (
     <>
@@ -23,7 +23,7 @@ const Fullstack = () => {
             <div className="info p-10 text-main text-2xl text-start font-bold ">
               Chatrooms - a full stack stranger room chat app make with mern and socket io.
             </div>
-           <Link to={'/sahil-chatrooms-app'}><button className='bg-white text-main px-4 py-2 rounded-md ml-10 mb-6 text-sm font-semibold'>View in detail</button></Link> 
+            <Link to={'/sahil-chatrooms-app'}><button className='bg-white text-main px-4 py-2 rounded-md ml-10 mb-6 text-sm font-semibold'>View in detail</button></Link>
           </div>
           <div className="box2 bg-green  w-[85%] md:w-[70%] lg:w-[27%] rounded-xl shadow-md shadow-grey">
             <img src={oncode} className='w-full rounded-t-xl h-52 object-cover' alt="" />
@@ -34,8 +34,8 @@ const Fullstack = () => {
           </div>
         </div>
         <div className='text-center my-10 text-grey text-sm'>
-            sahil@portfolio2023
-          </div>
+          sahil@portfolio2023
+        </div>
       </div>
     </>
   )

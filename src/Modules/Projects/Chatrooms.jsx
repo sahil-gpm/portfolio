@@ -38,7 +38,7 @@ const Chatrooms = () => {
                 </div>
                 <div className="other-details text-white w-[90%] md:w-3/4 mx-auto my-6 px-8 gap-3 text-center">
                     <div className="description text-center text-xs md:text-base font-semibold md:font-normal">Chatrooms is a <span className='text-green'>mern</span> app that allows you to create rooms 🔑 of your intersts and others can simply see the active rooms and can join ⨝ them.This a complete full stack app that uses react 🔵 as frontend, node js ✅ in the backend server and mongo db as the database.Besides it uses socket io ⚪️ for connecting users through web sockets enabling room chat.It also uses tailwind css 🔷 for styles and responsiveness.</div>
-                    <Link target='_blank' to={'https://github.com/sahil-gpm/newsfeed'}><button className='bg-green text-main px-4 py-3 rounded-md my-5' >Github ★</button></Link>
+                    <Link target='_blank' to={'https://github.com/sahil-gpm/chatrooms'}><button className='bg-green text-main px-4 py-3 rounded-md my-5' >Github ★</button></Link>
                 </div>
             </div>
         </div>
