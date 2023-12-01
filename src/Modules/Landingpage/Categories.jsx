@@ -14,9 +14,11 @@ const Categories = () => {
                             Projects made ➡️ with api ⌘ integration ►
                         </div>
                     </Link>
-                    <div className="box3 cursor-pointer max-w-sm  h-[17rem] md:h-[11rem] bg-white rounded-3xl p-16 text-center flex justify-center items-center">
-                        Tailwind 🤞 css UI templates 🧑‍💻 ►
-                    </div>
+                    <Link to={'/sahil-tailwind-static-templates'}>
+                        <div className="box3 cursor-pointer max-w-sm  h-[17rem] md:h-[11rem] bg-white rounded-3xl p-16 text-center flex justify-center items-center">
+                            Tailwind 🤞 css UI templates 🧑‍💻 ►
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className='text-center my-10 text-grey text-sm'>

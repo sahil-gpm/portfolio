@@ -4,6 +4,10 @@ import Fullstack from "./Modules/Projects/Fullstack";
 import Apibased from "./Modules/Projects/Apibased";
 import toast, { Toaster } from "react-hot-toast";
 import { useEffect } from "react";
+import Chatrooms from "./Modules/Projects/Chatrooms";
+import Oncode from "./Modules/Projects/Oncode";
+import Tailwind from "./Modules/Projects/Tailwind";
+import About from "./Modules/Landingpage/About";
 
 function App() {
 
@@ -41,8 +45,12 @@ function App() {
       <BrowserRouter>
           <Routes>
               <Route path="/" Component={Home}/>
+              <Route path="/about-me" Component={About}/>
               <Route path="/sahil-full-stack-apps" Component={Fullstack}/>
               <Route path="/sahil-newsfeed-api-based-app" Component={Apibased}/>
+              <Route path="/sahil-chatrooms-app" Component={Chatrooms}/>
+              <Route path="/sahil-oncode-app" Component={Oncode}/>
+              <Route path="/sahil-tailwind-static-templates" Component={Tailwind}/>
           </Routes>
       </BrowserRouter>
    </div>
