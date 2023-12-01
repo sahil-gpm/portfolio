@@ -16,14 +16,14 @@ const Intro = () => {
             Greetings! 👋 I'm a <span className='text-green'>passionate developer</span>, transforming lines of code into impactful solutions. I thrive on challenges like designing intuitive interfaces, optimizing high-performance algorithms, and resolving intricate bugs. 🚀 My commitment to staying at the forefront of industry trends ensures that my work not only embraces cutting-edge technology but also seamlessly integrates with the ever-evolving tech landscape. Let's collaboratively code a future where innovation knows no bounds! 🌐✨
             </div>
             <div className="buttons text-slate text-center mt-10 mx-8 text-sm font-semibold flex justify-center items-center gap-3">
-                <button className='bg-green w-52 py-3 rounded-md' onClick={()=>{
+                <button className='bg-green px-3 md:w-52 py-3 rounded-md' onClick={()=>{
                     navigator.clipboard.writeText("sahilchavangithub@gmail.com").then(()=>{
                         toast.success("My mail id is copied to clipboard")
                     }).catch(()=>{
                         toast.error("Some error occurred try again")
                     })
                 }}>Contact me</button>
-               <Link to={"/about-me"}><button className='bg-grey w-52 py-3 rounded-md'>About me</button></Link> 
+               <Link to={"/about-me"}><button className='bg-grey px-3 md:w-52 py-3 rounded-md'>About me</button></Link> 
             </div>
             
         </div>
