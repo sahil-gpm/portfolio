@@ -10,7 +10,7 @@ const Tailwind = () => {
     }, [])
     return (
         <div className={`fade-slide-in ${loaded ? "loaded" : ""}`}>
-            <div className="head text-white text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
+            <div className="head text-white text-4xl md:text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
                 <span className='text-green'> Tailwind templates </span>- for practicing designing static pages 🧑‍💻
             </div>
             <div className="ui mt-10 w-3/4 mx-auto px-2 md:px-12">

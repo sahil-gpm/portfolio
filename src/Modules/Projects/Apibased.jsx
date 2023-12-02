@@ -14,7 +14,7 @@ const Apibased = () => {
 
     return (
         <div className={`fade-slide-in ${ loaded ? "loaded" : ""}`}>
-            <div className="head text-white text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
+            <div className="head text-white text-4xl md:text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
                 <span className='text-green'> Newsfeed </span>- the daily news refresher for you 🌍💬
             </div>
             <div className="ui mt-10 flex w-3/4 mx-auto justify-between items-center gap-3 px-2 md:px-12">

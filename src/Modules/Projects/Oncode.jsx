@@ -13,7 +13,7 @@ const Oncode = () => {
     return (
         <div>
             <div className={`fade-slide-in ${loaded ? "loaded" : ""}`}>
-                <div className="head text-white text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
+                <div className="head text-white text-4xl md:text-5xl text-center w-3/4 mx-auto font-bold tracking-tight mt-20">
                     <span className='text-green'> Oncode </span>- where simplicity★ meets versatality🌟
                 </div>
                 <div className="ui mt-10 flex w-3/4 mx-auto justify-between items-center gap-3 px-2 md:px-12">
@@ -26,7 +26,7 @@ const Oncode = () => {
                 <img src={oncode} className='w-[80%] md:w-[70%] mx-auto mt-8 rounded-3xl' alt="" />
                 <div className="feat text-white text-center">
                     <div className="HEAD capitalize text-2xl mt-8  font-semibold w-3/4 mx-auto px-10">features</div>
-                    <div className="f w-3/4 mx-auto px-10 flex justify-center items-center flex-wrap gap-2 mt-5">
+                    <div className="f w-3/4 mx-auto px-3 md:px-10 flex justify-center items-center flex-wrap gap-2 mt-5">
                         <span className='px-4 py-2 rounded-3xl border-white border '>Firebase authentication</span>
                         <span className='px-4 py-2 rounded-3xl border-white border'>Sharable coding space</span>
                         <span className='px-4 py-2 rounded-3xl border-white border'>Web based editor</span>
