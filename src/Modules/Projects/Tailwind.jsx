@@ -24,7 +24,7 @@ const Tailwind = () => {
             <div  className='w-3/4 text-green  text-center  font-semibold mt-6 mx-auto'>Instagram login/signup clone</div>
             <img src={ig} className='w-[80%] md:w-[70%] mx-auto mt-2 rounded-3xl' alt="" />
             <div className="other-details text-white w-[90%] md:w-3/4 mx-auto my-6 px-8 gap-3 text-center">
-                <div className="description text-center text-xs md:text-base font-semibold md:font-normal">This pages are sign ups in <span className='text-green'>tailwind css 🔷</span> which i did in my beginning of developnemt, this are static pages which doesn't have any logic. It was an attempt to learn tailwind 🔷 and it's classes and customizations ✅ in the tailwind config files.I have uploaded the facebook 🧑‍💻 page code to github but not the second one. I only got the screenshot as it was saved in drive 🙁</div>
+                <div className="description text-center text-xs md:text-base font-semibold md:font-normal">This pages are sign ups in <span className='text-green'>tailwind css 🔷</span> which i did in my beginning of developnemt, these are static pages which doesn't have any logic in frontend or backend. It was an attempt to learn tailwind 🔷 and it's classes and customizations ✅ within the tailwind config file.I have uploaded the facebook 🧑‍💻 page to github but not the second one. I only got the screenshot as it was saved in drive 🙁</div>
                <Link to={'https://github.com/sahil-gpm/Tailwind_1/tree/main'} target='_blank'><button className='bg-green text-main px-4 py-3 rounded-md my-5' >Github ★</button></Link> 
             </div>
         </div>
